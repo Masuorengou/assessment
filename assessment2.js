@@ -27,7 +27,7 @@ function removeAllChildren(element) {
     resultDivided.removeChild(resultDivided.firstChild);
   }
   //　診断結果表示エリアの作成
-  removeAllChildren(resultDivided);
+  removeAllChildren(resultDivided);　
   const header = document.createElement('h3');
   header.innnerText = '診断結果';
   resultDivided.appendChild(header);
